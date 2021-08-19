@@ -70,47 +70,36 @@ class Human implements Command{
     public int getHealthy() {
         return healthy;
     }
-
     public int getHP() {
         return HP;
     }
-
     public String getName() {
         return name;
     }
-
     public UUID getUniqueId() {
         return uniqueId;
     }
-
     public int getAge() {
         return age;
     }
-
     public boolean getSex() {
         return sex;
     }
-
     public void setHealthy(int healthy) {
         this.healthy = healthy;
     }
-
     public void setHP(int HP) {
         this.HP = HP;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public void setUniqueId(UUID uniqueId) {
         this.uniqueId = uniqueId;
     }
-
     public void setAge(int age) {
         this.age = age;
     }
-
     public void setSex(boolean sex) {
         this.sex = sex;
     }
@@ -129,15 +118,12 @@ class Psychics extends Human {
     public int getMP() {
         return MP;
     }
-
     public Ability getAbility() {
         return ability;
     }
-
     public void setMP(int MP) {
         this.MP = MP;
     }
-
     public void setAbility(Ability ability) {
         this.ability = ability;
     }
